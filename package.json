@@ -1,0 +1,44 @@
+{
+  "name": "@amindunited/utils",
+  "version": "0.0.0",
+  "description": "A collection of javascript utility functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/utils.git"
+  },
+  "keywords": [
+    "Utility",
+    "Javascript",
+    "utils"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/utils/issues"
+  },
+  "homepage": "https://github.com/amindunited/utils#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "dependencies": {
+    "@amindunited/copy-file": "0.0.0",
+    "@amindunited/deep-flatten": "0.0.3",
+    "@amindunited/ensure-path": "0.0.0",
+    "@amindunited/file-stat": "0.0.0",
+    "@amindunited/move-file": "0.0.0",
+    "@amindunited/process-info": "0.0.0",
+    "@amindunited/read-dir": "0.0.0",
+    "@amindunited/read-file": "0.0.0",
+    "@amindunited/to-camel-case": "0.0.0",
+    "@amindunited/to-kebab-case": "0.0.0",
+    "@amindunited/to-snake-case": "0.0.0",
+    "@amindunited/to-title-case": "0.0.0",
+    "@amindunited/write-file": "0.0.0"
+  }
+}
