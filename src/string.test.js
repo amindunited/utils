@@ -32,4 +32,9 @@ describe('Process Functions', () => {
   it('should export to snek case', () => {
     expect(stringFunctions.toSnakeCase).to.be.a('function');
   });
+
+  it('should export revision hash', () => {
+    expect(stringFunctions.revisionHash).to.be.a('function');
+  });
+
 });
