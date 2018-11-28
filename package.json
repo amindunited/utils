@@ -4,7 +4,7 @@
   "description": "A collection of javascript utility functions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
   },
   "repository": {
     "type": "git",
@@ -30,9 +30,10 @@
     "@amindunited/copy-file": "0.0.0",
     "@amindunited/deep-flatten": "0.0.3",
     "@amindunited/ensure-path": "0.0.0",
+    "@amindunited/exclude": "0.0.1",
     "@amindunited/file-stat": "0.0.0",
     "@amindunited/move-file": "0.0.0",
-    "@amindunited/process-info": "0.0.1",
+    "@amindunited/process-info": "0.0.2",
     "@amindunited/read-dir": "0.0.0",
     "@amindunited/read-file": "0.0.0",
     "@amindunited/to-camel-case": "0.0.0",
