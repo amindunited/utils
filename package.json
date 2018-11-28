@@ -32,7 +32,7 @@
     "@amindunited/ensure-path": "0.0.0",
     "@amindunited/file-stat": "0.0.0",
     "@amindunited/move-file": "0.0.0",
-    "@amindunited/process-info": "0.0.0",
+    "@amindunited/process-info": "0.0.1",
     "@amindunited/read-dir": "0.0.0",
     "@amindunited/read-file": "0.0.0",
     "@amindunited/to-camel-case": "0.0.0",
