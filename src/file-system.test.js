@@ -21,5 +21,8 @@ describe('File System Functions', () => {
     expect(fileSystemFunctions.copyFile).to.be.a('function');
   });
 
+  it('should export ensure path', () => {
+    expect(fileSystemFunctions.ensurePath).to.be.a('function');
+  });
 
 });
