@@ -7,8 +7,10 @@
  */
 const copyFile = require('@amindunited/copy-file');
 const ensurePath = require('@amindunited/ensure-path');
+const moveFile = require('@amindunited/move-file');
 
 module.exports = {
   copyFile,
-  ensurePath
+  ensurePath,
+  moveFile
 }

@@ -25,4 +25,8 @@ describe('File System Functions', () => {
     expect(fileSystemFunctions.ensurePath).to.be.a('function');
   });
 
+  it('should export move file', () => {
+    expect(fileSystemFunctions.moveFile).to.be.a('function');
+  });
+
 });
