@@ -37,4 +37,8 @@ describe('File System Functions', () => {
     expect(fileSystemFunctions.readFile).to.be.a('function');
   });
 
+  it('should export file stat', () => {
+    expect(fileSystemFunctions.fileStat).to.be.a('function');
+  });
+
 });
