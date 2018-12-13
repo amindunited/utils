@@ -32,4 +32,9 @@ describe('File System Functions', () => {
   it('should export read directory', () => {
     expect(fileSystemFunctions.readDirectory).to.be.a('function');
   });
+
+  it('should export read file', () => {
+    expect(fileSystemFunctions.readFile).to.be.a('function');
+  });
+
 });
