@@ -11,7 +11,7 @@ const fs = require('fs');
 const stringFunctions = require('./string');
 const expect = require('chai').expect
 
-describe('Process Functions', () => {
+describe('String Functions', () => {
 
   it('should export an object', () => {
     expect(stringFunctions).to.be.an('object');
