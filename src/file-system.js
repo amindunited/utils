@@ -11,6 +11,7 @@ const moveFile = require('@amindunited/move-file');
 const readDirectory = require('@amindunited/read-dir');
 const readFile = require('@amindunited/read-file');
 const fileStat = require('@amindunited/file-stat');
+const writeFile = require('@amindunited/write-file');
 
 module.exports = {
   copyFile,
@@ -18,5 +19,6 @@ module.exports = {
   moveFile,
   readDirectory,
   readFile,
-  fileStat
+  fileStat,
+  writeFile
 }
