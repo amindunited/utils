@@ -29,4 +29,7 @@ describe('File System Functions', () => {
     expect(fileSystemFunctions.moveFile).to.be.a('function');
   });
 
+  it('should export read directory', () => {
+    expect(fileSystemFunctions.readDirectory).to.be.a('function');
+  });
 });
