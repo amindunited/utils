@@ -27,6 +27,7 @@
     "nyc": "^13.1.0"
   },
   "dependencies": {
+    "@amindunited/child-process": "0.0.0",
     "@amindunited/copy-file": "0.0.0",
     "@amindunited/deep-flatten": "0.0.3",
     "@amindunited/ensure-path": "0.0.0",

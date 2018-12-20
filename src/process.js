@@ -7,8 +7,10 @@
  */
 const processInfo = require('@amindunited/process-info');
 const gitInfo = require('@amindunited/git-info');
+const childProcess = require('@amindunited/child-process');
 
 module.exports = {
   processInfo,
-  gitInfo
+  gitInfo,
+  childProcess
 }

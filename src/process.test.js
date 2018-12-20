@@ -25,4 +25,8 @@ describe('Process Functions', () => {
     expect(processFunctions.gitInfo).to.be.a('function');
   });
 
+  it('should export child process', () => {
+    expect(processFunctions.childProcess.exec).to.be.a('function');
+  });
+
 });
