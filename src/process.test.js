@@ -21,4 +21,8 @@ describe('Process Functions', () => {
     expect(processFunctions.processInfo).to.be.a('function');
   });
 
+  it('should export git info', () => {
+    expect(processFunctions.gitInfo).to.be.a('function');
+  });
+
 });

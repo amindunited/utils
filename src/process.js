@@ -6,7 +6,9 @@
  * found in the LICENSE file
  */
 const processInfo = require('@amindunited/process-info');
+const gitInfo = require('@amindunited/git-info');
 
 module.exports = {
-  processInfo
+  processInfo,
+  gitInfo
 }
