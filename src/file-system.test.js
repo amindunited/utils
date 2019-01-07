@@ -29,6 +29,10 @@ describe('File System Functions', () => {
     expect(fileSystemFunctions.moveFile).to.be.a('function');
   });
 
+  it('should export recursive read directory', () => {
+    expect(fileSystemFunctions.recursiveReadDirectory).to.be.a('function');
+  });
+
   it('should export read directory', () => {
     expect(fileSystemFunctions.readDirectory).to.be.a('function');
   });

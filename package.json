@@ -38,6 +38,7 @@
     "@amindunited/process-info": "0.0.2",
     "@amindunited/read-dir": "0.0.0",
     "@amindunited/read-file": "0.0.0",
+    "@amindunited/recursive-read-directory": "0.0.0",
     "@amindunited/revision-hash": "0.0.0",
     "@amindunited/to-camel-case": "0.0.0",
     "@amindunited/to-kebab-case": "0.0.0",
