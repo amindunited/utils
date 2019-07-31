@@ -10,11 +10,13 @@ const toKebabCase = require('@amindunited/to-kebab-case');
 const toTitleCase = require('@amindunited/to-title-case');
 const toSnakeCase = require('@amindunited/to-snake-case');
 const revisionHash = require('@amindunited/revision-hash');
+const isURIEncoded = require('@amindunited/is-uri-encoded');
 
 module.exports = {
   toCamelCase,
   toKebabCase,
   toTitleCase,
   toSnakeCase,
-  revisionHash
+  revisionHash,
+  isURIEncoded
 };
